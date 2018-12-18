@@ -607,9 +607,6 @@ export default class Field {
           tag: 'input_model',
           unwatch
         });
-
-        // filter out input event as it is already handled by the watcher API.
-        events = events.filter(e => e !== inputEvent);
       }
     }
 
